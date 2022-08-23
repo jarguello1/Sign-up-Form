@@ -11,3 +11,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#cropped {
+    width: auto; 
+    height: 400px; 
+    overflow: hidden;
+}

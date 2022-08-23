@@ -1,10 +1,19 @@
 body {
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
 #image-container {
     display: flex;
     flex-direction: column;
+    width: 1735px;
+}
+
+#background_image {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
 }
 
 #form-container {
@@ -12,8 +21,8 @@ body {
     flex-direction: column;
 }
 
-#cropped {
-    width: auto; 
-    height: 400px; 
-    overflow: hidden;
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }

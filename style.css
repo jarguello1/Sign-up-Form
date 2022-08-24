@@ -13,8 +13,11 @@ body {
     background: white;
 }
 
-#overlay {
+#text {
 
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 #logo {
@@ -31,7 +34,7 @@ body {
     left:340px;
 }
 
-a {
+#image-source a {
     color: white;
     text-decoration: none;
 }
@@ -92,4 +95,9 @@ form {
 
 button {
     width: fit-content;
+    color: white;
+    background-color: rgb(28, 28, 66);
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px 10px;
 }

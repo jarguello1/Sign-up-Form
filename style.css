@@ -14,7 +14,7 @@ body {
 }
 
 #overlay {
-    margin-top: -500px;
+
 }
 
 #logo {
@@ -23,7 +23,10 @@ body {
 }
 
 #background_image {
+    position: absolute;
+    left: 200px;
     z-index: -1;
+    height: 968px;
 }
 
 #form-container {
@@ -32,6 +35,11 @@ body {
     justify-content: center;
     gap: 100px;
     background: white;
+    position: absolute;
+    right: 200px;
+    left: 800px;
+    bottom: 0px;
+    top: 0px;
 }
 
 form {

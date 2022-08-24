@@ -18,9 +18,10 @@ body {
 }
 
 #logo {
-    background-color: rgba(216, 216, 216, 0.5);
+    background-color: rgba(143, 143, 143, 0.397);
     height: 300px;
     padding: 0px 188px;
+    margin-top: 345px;
 }
 
 #image-source {
@@ -81,6 +82,12 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 65px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
 }
 
 button {

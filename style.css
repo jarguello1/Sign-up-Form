@@ -71,8 +71,12 @@ form {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    border: 0.1px solid black;
+    border: 0.1px solid #E5E7EB;
     padding: 87px 0;
+}
+
+input {
+    border-color: #E5E7EB;
 }
 
 #button-container {

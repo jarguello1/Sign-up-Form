@@ -10,8 +10,9 @@
 <body>
     <div id="image-container">
         <img id="background_image" src="./images/dominik-luckmann-rRYQo_tR9xQ-unsplash_cropped.png" alt="picture By Dominik Luckmann" width="600px">
-        <img Id="logo" src="" alt="opaque logo">
-        <div id="image-source">Photo by <a href="https://unsplash.com/@exdigy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dominik Lückmann</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        <div id="overlay">
+            <img id="logo" src="" alt="opaque logo">
+            <div id="image-source">Photo by <a href="https://unsplash.com/@exdigy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dominik Lückmann</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
         </div>
     </div>
     <div id="form-container">
@@ -19,24 +20,29 @@
             This is not an a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
         </div>
         <form action="" method="post">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name">
+            <div id="name_row" class="rows">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+    
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name">
+            </div>
 
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name">
+            <div id="info_row" class="rows">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+    
+                <label for="phone_number">Phone Number</label>
+                <input type="number" name="phone_number" id="phone_number">
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-
-            <label for="phone_number">Phone Number</label>
-            <input type="number" name="phone_number" id="phone_number">
-
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-
-            <label for="confirm_password">Confirm Password</label>
-            <input type="password" name="confirm_password" id="confirm_password">
-
+            <div id="password_row" class="rows">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+    
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </div>
         </form>
         <div id="button-container">
             <button type="submit">Create Account</button>

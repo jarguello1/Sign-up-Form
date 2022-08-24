@@ -10,19 +10,34 @@ body {
     width: 1735px;
 }
 
+#overlay {
+    margin-top: -500px;
+}
+
+#logo {
+    margin-bottom: 500px;
+    background-color: rgb(250, 235, 215, 50%);
+}
+
 #background_image {
-    position: absolute;
-    left: 0px;
     z-index: -1;
 }
 
 #form-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 100px;
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

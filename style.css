@@ -1,13 +1,16 @@
 body {
     display: flex;
-    margin: 0px;
+    margin: 0px 200px;
     padding: 0px;
+    background: black;
 }
 
 #image-container {
     display: flex;
     flex-direction: column;
     width: 1735px;
+    z-index: -1;
+    background: white;
 }
 
 #overlay {
@@ -28,6 +31,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 100px;
+    background: white;
 }
 
 form {

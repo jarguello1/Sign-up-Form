@@ -2,7 +2,7 @@ body {
     display: flex;
     margin: 0px 200px;
     padding: 0px;
-    background: black;
+    background: rgb(39, 39, 39);
 }
 
 #image-container {
@@ -18,8 +18,21 @@ body {
 }
 
 #logo {
-    margin-bottom: 500px;
-    background-color: rgb(250, 235, 215, 50%);
+    background-color: rgba(216, 216, 216, 0.5);
+    height: 300px;
+    padding: 0px 188px;
+}
+
+#image-source {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left:340px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 #background_image {
@@ -42,14 +55,34 @@ body {
     top: 0px;
 }
 
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
 form {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: center;
+    border: 0.1px solid black;
+    padding: 87px 0;
+}
+
+#button-container {
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .rows {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+button {
+    width: fit-content;
 }
